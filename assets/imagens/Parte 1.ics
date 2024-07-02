@@ -1,0 +1,90 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:E. South America Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN=carlos.henrique@inducta.com.br;RSVP=TRUE:mailto:carlos.henrique
+	@inducta.com.br
+ATTENDEE;CN="'Daniela Dale'";RSVP=TRUE:mailto:daniela.dale@inducta.com.br
+ATTENDEE;CN="luccas terra";RSVP=TRUE:mailto:luccas.terra@inducta.com.br
+ATTENDEE;CN=david.trindade@inducta.com.br;RSVP=TRUE:mailto:david.trindade@i
+	nducta.com.br
+ATTENDEE;CN=vagner.lopes@inducta.com.br;RSVP=TRUE:mailto:vagner.lopes@induc
+	ta.com.br
+CLASS:PUBLIC
+CREATED:20240701T191229Z
+DESCRIPTION:Bom dia a todos.\n\n \n\n@carlos.henrique@inducta.com.br <mailt
+	o:carlos.henrique@inducta.com.br>  vai conversar conosco sobre a Inducta\,
+	 nos passar as informações de que precisamos para iniciar a produção d
+	o novo site da empresa e dar início às postagens nas redes sociais.\n\n 
+	\n\nObrigada\,\n\n \n\nMiriam Abreu\n\n \n\n
+DTEND;TZID="E. South America Standard Time":20240703T120000
+DTSTAMP:20240701T191229Z
+DTSTART;TZID="E. South America Standard Time":20240703T110000
+LAST-MODIFIED:20240701T191229Z
+LOCATION:Sala Aquário
+ORGANIZER;CN=miriam.abreu@inducta.com.br:mailto:miriam.abreu@inducta.com.br
+PRIORITY:5
+SEQUENCE:1
+SUMMARY;LANGUAGE=pt-br:Inducta Energy Transitions - redes sociais e site
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000606DE3F482C8DA01000000000000000
+	0100000001767F7C75FCAB64BBAA3E0DEC0BF8B6D
+X-ALT-DESC;FMTTYPE=text/html:<META HTTP-EQUIV="Content-Type" CONTENT="text/
+	html\; charset=iso-8859-1">\n<html xmlns:v="urn:schemas-microsoft-com:vml"
+	 xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mi
+	crosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004
+	/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head><meta name=Generat
+	or content="Microsoft Word 15 (filtered medium)"><style><!--\n/* Font Defi
+	nitions */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 
+	5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 2 2 
+	2 4 3 2 4\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNormal\, div.Ms
+	oNormal\n	{margin:0cm\;\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans
+	-serif\;}\nspan.EstiloDeEmail19\n	{mso-style-type:personal-compose\;\n	mso
+	-fareast-language:EN-US\;}\n.MsoChpDefault\n	{mso-style-type:export-only\;
+	\n	font-size:10.0pt\;}\n@page WordSection1\n	{size:612.0pt 792.0pt\;\n	mar
+	gin:70.85pt 3.0cm 70.85pt 3.0cm\;}\ndiv.WordSection1\n	{page:WordSection1\
+	;}\n--></style><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spi
+	dmax="1026" />\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout
+	 v:ext="edit">\n<o:idmap v:ext="edit" data="1" />\n</o:shapelayout></xml><
+	![endif]--></head><body lang=PT-BR link=blue vlink=purple style='word-wrap
+	:break-word'><div class=WordSection1><p class=MsoNormal><span style='mso-f
+	areast-language:EN-US'>Bom dia a todos.<o:p></o:p></span></p><p class=MsoN
+	ormal><span style='mso-fareast-language:EN-US'><o:p>&nbsp\;</o:p></span></
+	p><p class=MsoNormal><span style='mso-fareast-language:EN-US'><a id=OWAAM3
+	458AC75502F41969C8C10BEFBC3859C href="mailto:carlos.henrique@inducta.com.b
+	r"><span style='font-family:"Calibri"\,sans-serif\;text-decoration:none'>@
+	carlos.henrique@inducta.com.br</span></a> vai conversar conosco sobre a In
+	ducta\, nos passar as informações de que precisamos para iniciar a produ
+	ção do novo site da empresa e dar início às postagens nas redes sociai
+	s.<o:p></o:p></span></p><p class=MsoNormal><span style='mso-fareast-langua
+	ge:EN-US'><o:p>&nbsp\;</o:p></span></p><p class=MsoNormal><span style='mso
+	-fareast-language:EN-US'>Obrigada\,<o:p></o:p></span></p><p class=MsoNorma
+	l><span style='mso-fareast-language:EN-US'><o:p>&nbsp\;</o:p></span></p><p
+	 class=MsoNormal><span style='mso-fareast-language:EN-US'>Miriam Abreu<o:p
+	></o:p></span></p><div id=signature><p class=MsoNormal><o:p>&nbsp\;</o:p><
+	/p></div></div></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTSEQTIME:20240627T143647Z
+X-MS-OLK-AUTOSTARTCHECK:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+

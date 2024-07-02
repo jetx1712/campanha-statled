@@ -1,0 +1,248 @@
+body{
+    background: black;
+    scroll-behavior: smooth;
+}
+.bg-dark {
+    background: black !important;
+}
+
+.navbar-nav {
+    margin: auto;
+    padding-right: 112px;
+}
+
+.navbar-brand-img {
+    max-width: 60%;
+    padding: 30px;
+}
+
+.nav-link {
+    color: white !important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: #EA801C !important;
+}
+
+#botao-contato {
+    display: flex;
+    align-items: center;
+    border: solid 1px #EA801C;
+}
+
+#botao-contato label {
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-bottom: -5px;
+}
+
+#botao-contato label span {
+    font-size: 35px;
+    color: #EA801C;
+}
+
+.botao-direito-nav-1 {
+    padding: 10px 30px 10px 30px;
+}
+
+.botao-direito-nav-2 {
+    padding: 10px 70px 10px 30px;
+    border-left: solid 1px #EA801C;
+}
+
+#banner-home {
+    position: relative;
+    width: 100%;
+    height: 970px;
+    background: url(imagens/banner-home.png) no-repeat center center;
+    margin-top: 30px;
+}
+#banner-2-campanha{
+    background: url(imagens/banner-2-campanha.png) no-repeat center center;
+    height: 730px;
+}
+#acampanha{
+    background-color: black;
+}
+.titulo h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    padding-top: 70px;
+    font-size: 65px;
+    font-weight: 600;
+}
+.titulo h3{
+    color: #EA801C;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+.conteudo-campanha{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.conteudo-campanha p{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+#como-identificar{
+    background-color: black;
+}
+#como-identificar .titulo h1{
+    text-align: center;
+}
+#como-identificar .titulo h3{
+    text-align: center;
+}
+.quadrados{
+    display: flex;
+}
+.quadrados-internos{
+    border: solid 1px #EA801C;
+    height: 250px;
+    width: 300px;
+    margin: 50px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.quadrados-internos h2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+.quadrados-internos h1{
+    color: white;
+    font-size: 100px;
+    margin-bottom: -40px;
+    margin-top: 0px;
+}
+.quadrados-internos h3{
+    color: #EA801C;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+.botao-download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.botao-download button {
+    border: none;
+    padding: 20px;
+    background: #EA801C;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.botao-download button:hover {
+    background: #e35a00;
+    transform: scale(1.05);
+}
+
+
+#contato{
+    background-color: #EA801C;
+}
+#contato .titulo h1{
+    text-align: center;
+    padding-bottom: 80px;
+}
+#contato h2{
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+#contato .identificacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contato .form-check{
+    margin: 10px 10px 10px 0px;
+}
+#contato .form-check label{
+    font-size: 30px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 30px;
+}
+#contato .form-check input{
+    height: 35px;
+    width: 40px;
+}
+#contato .formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+#contato .formulario input{
+    border-radius: 0;
+    margin: 15px 0px 15px 0px;
+}
+#contato .formulario textarea{
+    border-radius: 0;
+    margin: 15px 0px 15px 0px;
+}
+#contato .formulario button{
+    border: none;
+    padding: 15px 30px 15px 30px;
+    background: #e35a00;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+#contato .formulario button:hover {
+    background: #e35a00;
+    transform: scale(1.05);
+}
+#footer{
+    background-color:#EA801C;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.info-footer{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+#footer img{
+    max-width: 20%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+#footer h5{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+#footer i{
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+}
+#footer .social{
+    padding: 0px 30px 0px 30px;
+    border: solid 1px white;
+    border-radius: 60px;
+}
