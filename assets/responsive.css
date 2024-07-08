@@ -1,0 +1,430 @@
+@media (min-width: 200px) and (max-width: 329px) {
+    #botao-contato {
+        display: none;
+    }
+
+    .navbar-brand-img {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .quadrados {
+        display: none;
+    }
+
+    #quadradosCarousel {
+        display: flex;
+    }
+
+    .titulo h1 {
+        font-size: 35px;
+    }
+
+    #banner-home {
+        background: url(imagens/banner-mobile.jpg) no-repeat center center;
+        height: 800px;
+    }
+
+    #banner-2-campanha {
+        background: url(imagens/banner-mobile-2.jpg) no-repeat center center;
+        height: 300px;
+    }
+}
+
+@media (min-width: 329px) and (max-width: 400px) {
+    .navbar-brand-img {
+        max-width: 50%;
+    }
+
+    #botao-contato {
+        display: none;
+    }
+
+    .navbar-brand-img {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .quadrados {
+        display: none;
+    }
+
+    .titulo h1 {
+        font-size: 35px;
+    }
+
+    #quadradosCarousel {
+        display: flex;
+    }
+
+    #banner-home {
+        background: url(imagens/banner-mobile.jpg) no-repeat center center;
+        height: 800px;
+    }
+
+    #banner-2-campanha {
+        background: url(imagens/banner-mobile-2.jpg) no-repeat center center;
+        height: 300px;
+    }
+
+    #botao-contato-mobile {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    #botao-contato-mobile label {
+        font-size: 21px;
+    }
+
+    #botao-contato-mobile label span {
+        font-size: 24px;
+    }
+
+    #footer img {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 500px) {
+    .navbar-brand-img {
+        max-width: 50%;
+    }
+
+    #botao-contato {
+        display: none;
+    }
+
+    .navbar-brand-img {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .quadrados {
+        display: none;
+    }
+
+    #quadradosCarousel {
+        display: flex;
+    }
+
+    .titulo h1 {
+        font-size: 35px;
+    }
+
+    #banner-home {
+        background: url(imagens/banner-mobile.jpg) no-repeat center center;
+        height: 800px;
+    }
+
+    #banner-2-campanha {
+        background: url(imagens/banner-mobile-2.jpg) no-repeat center center;
+        height: 300px;
+    }
+
+    #botao-contato-mobile {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    #botao-contato-mobile label {
+        font-size: 21px;
+    }
+
+    #botao-contato-mobile label span {
+        font-size: 24px;
+    }
+
+    #footer img {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 765px) {
+    .navbar-brand-img {
+        max-width: 50%;
+    }
+
+    #botao-contato {
+        display: none;
+    }
+
+    .navbar-brand-img {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .quadrados {
+        display: none;
+    }
+
+    #quadradosCarousel {
+        display: flex;
+    }
+
+    .titulo h1 {
+        font-size: 35px;
+    }
+
+    #banner-home {
+        background: url(imagens/banner-home.png) no-repeat center center;
+        height: 410px;
+        background-size: 150%;
+        margin-top: 150px;
+    }
+
+    #banner-2-campanha {
+        background: url(imagens/banner-2-campanha.png) no-repeat center center;
+        height: 300px;
+        background-size: 150%;
+    }
+
+    #botao-contato-mobile {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    #botao-contato-mobile label {
+        font-size: 21px;
+    }
+
+    #botao-contato-mobile label span {
+        font-size: 24px;
+    }
+
+    #footer img {
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 766px) and (max-width: 819px) {
+    .navbar-brand-img {
+        max-width: 50%;
+    }
+
+    #botao-contato {
+        display: none;
+    }
+
+    .navbar-brand-img {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .quadrados-internos {
+        margin: 30px;
+    }
+
+    .quadrados-internos h3 {
+        font-size: 13px;
+    }
+
+    #quadradosCarousel {
+        display: none;
+    }
+
+    .titulo h1 {
+        font-size: 35px;
+    }
+
+    #banner-home {
+        background: url(imagens/banner-home.png) no-repeat center center;
+        height: 500px;
+        background-size: 130%;
+        margin-top: 170px;
+    }
+
+    #banner-2-campanha {
+        background: url(imagens/banner-2-campanha.png) no-repeat center center;
+        height: 430px;
+        background-size: 160%;
+    }
+
+    #botao-contato-mobile {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    #botao-contato-mobile label {
+        font-size: 21px;
+    }
+
+    #botao-contato-mobile label span {
+        font-size: 24px;
+    }
+
+    #footer img {
+        max-width: 40%;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 900px) {
+    .navbar-brand-img {
+        max-width: 50%;
+    }
+
+    #botao-contato {
+        display: none;
+    }
+
+    .navbar-brand-img {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .quadrados-internos {
+        margin: 30px;
+    }
+
+    .quadrados-internos h3 {
+        font-size: 13px;
+    }
+
+    #quadradosCarousel {
+        display: none;
+    }
+
+    .titulo h1 {
+        font-size: 35px;
+    }
+
+    #banner-home {
+        background: url(imagens/banner-home.png) no-repeat center center;
+        height: 500px;
+        background-size: 130%;
+        margin-top: 170px;
+    }
+
+    #banner-2-campanha {
+        background: url(imagens/banner-2-campanha.png) no-repeat center center;
+        height: 430px;
+        background-size: 160%;
+    }
+
+    #botao-contato-mobile {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    #botao-contato-mobile label {
+        font-size: 21px;
+    }
+
+    #botao-contato-mobile label span {
+        font-size: 24px;
+    }
+
+    #footer img {
+        max-width: 40%;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 990px) {
+    .navbar-brand-img {
+        max-width: 50%;
+    }
+
+    #botao-contato {
+        display: none;
+    }
+
+    .navbar-brand-img {
+        padding: 30px 0px 30px 0px;
+    }
+    .quadrados-internos {
+        margin: 30px;
+    }
+    .quadrados-internos h3 {
+        font-size: 15px;
+    }
+    .quadrados-internos h1 {
+        font-size: 70px;
+    }
+
+    #quadradosCarousel {
+        display: none;
+    }
+
+    .titulo h1 {
+        font-size: 35px;
+    }
+
+    #banner-home {
+        background: url(imagens/banner-home.png) no-repeat center center;
+        height: 500px;
+        background-size: 130%;
+        margin-top: 170px;
+    }
+
+    #banner-2-campanha {
+        background: url(imagens/banner-2-campanha.png) no-repeat center center;
+        height: 430px;
+        background-size: 160%;
+    }
+
+    #botao-contato-mobile {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    #botao-contato-mobile label {
+        font-size: 21px;
+    }
+
+    #botao-contato-mobile label span {
+        font-size: 24px;
+    }
+
+    #footer img {
+        max-width: 40%;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+    .navbar-brand-img {
+        max-width: 20%;
+    }
+
+    #botao-contato {
+        display: none;
+    }
+
+    .navbar-brand-img {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .titulo h1 {
+        font-size: 35px;
+    }
+
+    .quadrados-internos h3 {
+        font-size: 15px;
+    }
+
+    .quadrados-internos {
+        margin: 40px;
+    }
+
+    #banner-home {
+        background: url(imagens/banner-home.png) no-repeat center center;
+        height: 650px;
+        background-size: 130%;
+        margin-top: 170px;
+    }
+
+    #banner-2-campanha {
+        background: url(imagens/banner-2-campanha.png) no-repeat center center;
+        height: 530px;
+        background-size: 160%;
+    }
+
+    #botao-contato-mobile {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    #botao-contato-mobile label {
+        font-size: 21px;
+    }
+
+    #botao-contato-mobile label span {
+        font-size: 24px;
+    }
+
+    #footer img {
+        max-width: 40%;
+    }
+}

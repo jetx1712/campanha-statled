@@ -8,11 +8,10 @@ body{
 
 .navbar-nav {
     margin: auto;
-    padding-right: 112px;
 }
 
 .navbar-brand-img {
-    max-width: 60%;
+    max-width: 20%;
     padding: 30px;
 }
 
@@ -32,6 +31,26 @@ body{
 }
 
 #botao-contato label {
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-bottom: -5px;
+}
+
+#botao-contato-mobile label span {
+    font-size: 35px;
+    color: #EA801C;
+}
+#botao-contato-mobile {
+    display: flex;
+    align-items: center;
+    border: solid 1px #EA801C;
+    display: none;
+}
+
+#botao-contato-mobile label {
     text-align: left;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 0px;
@@ -183,6 +202,13 @@ body{
     font-family: 'Oswald', sans-serif;
     margin-left: 30px;
 }
+#quadradosCarousel{
+    display: none;
+}
+#quadradosCarousel .quadrados-internos{
+    margin: 0px;
+    width: 100%;
+}
 #contato .form-check input{
     height: 35px;
     width: 40px;
@@ -192,6 +218,9 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+}
+.hidden-form {
+    display: none; /* Formulário oculto por padrão */
 }
 #contato .formulario input{
     border-radius: 0;

@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/style.css" rel="stylesheet">
+    <link href="assets/responsive.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,11 +17,8 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a href="#">
-            <img class="navbar-brand-img" src="assets/imagens/logo.png" />
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <img class="navbar-brand-img" src="assets/imagens/logo.png" />
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -35,21 +33,26 @@
                     <a class="nav-link" href="#ancor-denuncie">DENUNCIE</a>
                 </li>
             </ul>
+            <div id="botao-contato-mobile">
+                <div class="botao-direito-nav-1">
+                    <img src="assets/imagens/Icon_balao_ouvidoria.svg" />
+                </div>
+                <div class="botao-direito-nav-2">
+                    <label>Canal de Ouvidoria<br><span>0800 374 0020</span></label>
+                </div>
+            </div>
         </div>
         <div id="botao-contato">
             <div class="botao-direito-nav-1">
                 <img src="assets/imagens/Icon_balao_ouvidoria.svg" />
             </div>
             <div class="botao-direito-nav-2">
-                <label>Canal de Ouvidoria<br><span>0800 374 0100</span></label>
+                <label>Canal de Ouvidoria<br><span>0800 374 0020</span></label>
 
             </div>
         </div>
     </nav>
     <section id="banner-home">
-        <div>
-            <h1>Não tenha <br> Medo!</h1>
-        </div>
     </section>
     <section id="banner-2-campanha"><a style="position: absolute; top: 1600px;" id="ancor-acampanha">a</a></section>
     <section id="acampanha">
@@ -113,12 +116,10 @@
                 <div class="col-md-3 quadrados-internos">
                     <h1>3</h1>
                     <h3>Passa tarefas humilhantes ou impossíveis de serem cumpridas.</h3>
-
                 </div>
                 <div class="col-md-3 quadrados-internos">
                     <h1>4</h1>
                     <h3>Grita ou fala de forma desrespeitosa.</h3>
-
                 </div>
                 <div class="col-md-3 quadrados-internos">
                     <h1>5</h1>
@@ -143,16 +144,90 @@
                 <div class="col-md-3 quadrados-internos">
                     <h1>3</h1>
                     <h3>Pressiona por encontros e faz convites impertinentes.</h3>
-
                 </div>
                 <div class="col-md-3 quadrados-internos">
                     <h1>4</h1>
                     <h3>Faz insinuações de caráter sexual, explícitas ou veladas.</h3>
-
                 </div>
                 <div class="col-md-3 quadrados-internos">
                     <h1>5</h1>
                     <h3>Faz ameaças e chantagens em troca de manter o emprego ou de promover o(a) colaborador(a)</h3>
+                </div>
+            </div>
+            <div id="quadradosCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div style="background: #ea811f" class="col-md-3 quadrados-internos">
+                            <h2>Configura assédio moral quando o superior ou colega …</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3 quadrados-internos">
+                            <h1>1</h1>
+                            <h3>Tira a autonomia do colaborador ou contesta constantemente suas decisões.</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3 quadrados-internos">
+                            <h1>2</h1>
+                            <h3>Sobrecarrega o colaborador ou tira o trabalho que ele realizava para provocar a sensação de
+                                inutilidade ou incompetência.</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3 quadrados-internos">
+                            <h1>3</h1>
+                            <h3>Passa tarefas humilhantes ou impossíveis de serem cumpridas.</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3 quadrados-internos">
+                            <h1>4</h1>
+                            <h3>Grita ou fala de forma desrespeitosa.</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3 quadrados-internos">
+                            <h1>5</h1>
+                            <h3>Desconsidera a opinião e a sugestão do colaborador.</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div style="background: #ea811f" class="col-md-3 quadrados-internos">
+                            <h2>Configura assédio sexual quando o colega de trabalho ou chefe…</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3 quadrados-internos">
+                            <h1>1</h1>
+                            <h3>Insiste em conversas indesejáveis sobre sexo.</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3 quadrados-internos">
+                            <h1>2</h1>
+                            <h3>Faz contato físico indesejado</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3 quadrados-internos">
+                            <h1>3</h1>
+                            <h3>Pressiona por encontros e faz convites impertinentes.</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3 quadrados-internos">
+                            <h1>4</h1>
+                            <h3>Faz insinuações de caráter sexual, explícitas ou veladas.</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3 quadrados-internos">
+                            <h1>5</h1>
+                            <h3>Faz ameaças e chantagens em troca de manter o emprego ou de promover o(a) colaborador(a)</h3>
+                        </div>
+                    </div>
+                    <!-- Adicione mais itens conforme necessário -->
                 </div>
             </div>
             <a id="ancor-denuncie"></a>
@@ -170,22 +245,16 @@
             <h2>Você quer se identificar?</h2>
             <div class="identificacao">
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="identify" id="radioYes" value="yes"
-                        onclick="toggleForm()">
-                    <label class="form-check-label" for="radioYes">
-                        Sim
-                    </label>
+                    <input class="form-check-input" type="radio" name="identify" id="radioYes" value="yes" onclick="toggleForm()">
+                    <label class="form-check-label" for="radioYes">Sim</label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="identify" id="radioNo" value="no"
-                        onclick="toggleForm()">
-                    <label class="form-check-label" for="radioNo">
-                        Não
-                    </label>
+                    <input class="form-check-input" type="radio" name="identify" id="radioNo" value="no" onclick="toggleForm()" checked>
+                    <label class="form-check-label" for="radioNo">Não</label>
                 </div>
             </div>
             <div class="formulario">
-                <form id="identificationForm" class="hidden-form col-md-6">
+                <form id="identificationFormYes" class="hidden-form col-md-6">
                     <h2>Preencha com seus dados abaixo</h2>
                     <div class="form-group">
                         <input type="text" class="form-control" id="name" placeholder="Digite seu nome">
@@ -194,10 +263,23 @@
                         <input type="email" class="form-control" id="email" placeholder="Digite seu email">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" name="mensagem"
-                            placeholder="Digite a sua mensagem aqui"></textarea>
+                        <textarea class="form-control" name="mensagem" placeholder="Digite a sua mensagem aqui"></textarea>
                     </div>
-                    <div style="display: flex;align-items: center;justify-content: center;">
+                    <h2>Algum colega pode falar conosco sobre isso? Caso sim, informe nome e e-mail da pessoa.</h2>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="nome-testemunha" placeholder="Digite o nome do colega">
+                        <input type="email" class="form-control" id="email-testemunha" placeholder="Digite o email do colega">
+                    </div>
+                    <div style="display: flex; align-items: center; justify-content: center;">
+                        <button type="submit"><i class="fas fa-arrow-right"></i> Enviar</button>
+                    </div>
+                </form>
+                <form id="identificationFormNo" class="hidden-form col-md-6">
+                    <h2>Envie sua mensagem</h2>
+                    <div class="form-group">
+                        <textarea class="form-control" name="mensagem" placeholder="Digite a sua mensagem aqui"></textarea>
+                    </div>
+                    <div style="display: flex; align-items: center; justify-content: center;">
                         <button type="submit"><i class="fas fa-arrow-right"></i> Enviar</button>
                     </div>
                 </form>
@@ -211,9 +293,9 @@
                 <h5>Cumprindo a exigência da Lei nº 14.457, de 21 de setembro de 2022 (Processo nº 19966.100910/2021-44)
                 </h5>
                 <div class="social">
-                    <i class="fa fa-facebook-f"></i>
-                    <i class="fa fa-linkedin"></i>
-                    <i class="fa fa-instagram"></i>
+                    <a href="https://www.facebook.com/statledbrasil/?locale=pt_BR" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/company/statled/?originalSubdomain=br" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/statledbrasil/" target="_blank"><i class="fa fa-instagram"></i></a>
 
                 </div>
             </div>
@@ -227,19 +309,41 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
     <script>
         function toggleForm() {
-            const form = document.getElementById('identificationForm');
+            const formYes = document.getElementById('identificationFormYes');
+            const formNo = document.getElementById('identificationFormNo');
             const radioYes = document.getElementById('radioYes');
-            form.style.display = radioYes.checked ? 'block' : 'none';
+            const radioNo = document.getElementById('radioNo');
+
+            formYes.style.display = radioYes.checked ? 'block' : 'none';
+            formNo.style.display = radioNo.checked ? 'block' : 'none';
         }
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            toggleForm(); // Certifica que os formulários estejam ocultos ao carregar a página
+        });
+
         document.querySelectorAll('a.nav-link').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
+            anchor.addEventListener('click', function(e) {
                 e.preventDefault();
 
                 document.querySelector(this.getAttribute('href')).scrollIntoView({
                     behavior: 'smooth'
                 });
+            });
+        });
+        $(document).ready(function() {
+            $("#quadradosCarousel").swipe({
+                swipe: function(event, direction) {
+                    if (direction == 'left') {
+                        $(this).carousel('next');
+                    } else if (direction == 'right') {
+                        $(this).carousel('prev');
+                    }
+                },
+                allowPageScroll: "vertical"
             });
         });
     </script>
