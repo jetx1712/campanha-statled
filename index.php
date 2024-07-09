@@ -12,12 +12,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="format-detection" content="telephone=no">
 </head>
 
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <img class="navbar-brand-img" src="assets/imagens/logo.png" />
+        <img id="logo" class="navbar-brand-img" src="assets/imagens/logo.png" />
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -344,6 +345,14 @@
                     }
                 },
                 allowPageScroll: "vertical"
+            });
+        });
+        // Adicionando evento de clique à imagem da logo
+        document.getElementById('logo').addEventListener('click', function() {
+            // Rola de volta para o topo do site
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
             });
         });
     </script>
