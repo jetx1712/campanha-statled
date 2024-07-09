@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campanha provisoria</title>
+    <title>Assédio é crime</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/style.css" rel="stylesheet">
@@ -19,7 +19,8 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <img id="logo" class="navbar-brand-img" src="assets/imagens/logo.png" />
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -171,7 +172,8 @@
                     <div class="carousel-item">
                         <div class="col-md-3 quadrados-internos">
                             <h1>2</h1>
-                            <h3>Sobrecarrega o colaborador ou tira o trabalho que ele realizava para provocar a sensação de
+                            <h3>Sobrecarrega o colaborador ou tira o trabalho que ele realizava para provocar a sensação
+                                de
                                 inutilidade ou incompetência.</h3>
                         </div>
                     </div>
@@ -225,7 +227,8 @@
                     <div class="carousel-item">
                         <div class="col-md-3 quadrados-internos">
                             <h1>5</h1>
-                            <h3>Faz ameaças e chantagens em troca de manter o emprego ou de promover o(a) colaborador(a)</h3>
+                            <h3>Faz ameaças e chantagens em troca de manter o emprego ou de promover o(a) colaborador(a)
+                            </h3>
                         </div>
                     </div>
                     <!-- Adicione mais itens conforme necessário -->
@@ -246,11 +249,13 @@
             <h2>Você quer se identificar?</h2>
             <div class="identificacao">
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="identify" id="radioYes" value="yes" onclick="toggleForm()">
+                    <input class="form-check-input" type="radio" name="identify" id="radioYes" value="yes"
+                        onclick="toggleForm()">
                     <label class="form-check-label" for="radioYes">Sim</label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="identify" id="radioNo" value="no" onclick="toggleForm()" checked>
+                    <input class="form-check-input" type="radio" name="identify" id="radioNo" value="no"
+                        onclick="toggleForm()" checked>
                     <label class="form-check-label" for="radioNo">Não</label>
                 </div>
             </div>
@@ -258,30 +263,34 @@
                 <form id="identificationFormYes" class="hidden-form col-md-6">
                     <h2>Preencha com seus dados abaixo</h2>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="name" placeholder="Digite seu nome">
+                        <input type="text" class="form-control" id="name" name="nome" placeholder="Digite seu nome">
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" name="mensagem" placeholder="Digite a sua mensagem aqui"></textarea>
+                        <textarea class="form-control" name="mensagem"
+                            placeholder="Digite a sua mensagem aqui"></textarea>
                     </div>
                     <h2>Algum colega pode falar conosco sobre isso? Caso sim, informe nome e e-mail da pessoa.</h2>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="nome-testemunha" placeholder="Digite o nome do colega">
-                        <input type="email" class="form-control" id="email-testemunha" placeholder="Digite o email do colega">
+                        <input type="text" class="form-control" id="nome-testemunha" name="nome-testemunha"
+                            placeholder="Digite o nome do colega">
+                        <input type="email" class="form-control" id="email-testemunha" name="email-testemunha"
+                            placeholder="Digite o email do colega">
                     </div>
                     <div style="display: flex; align-items: center; justify-content: center;">
-                        <button type="submit"><i class="fas fa-arrow-right"></i> Enviar</button>
+                        <button type="button" id="enviar-s"><i class="fas fa-arrow-right"></i> Enviar</button>
                     </div>
                 </form>
                 <form id="identificationFormNo" class="hidden-form col-md-6">
                     <h2>Envie sua mensagem</h2>
                     <div class="form-group">
-                        <textarea class="form-control" name="mensagem" placeholder="Digite a sua mensagem aqui"></textarea>
+                        <textarea class="form-control" name="mensagem"
+                            placeholder="Digite a sua mensagem aqui"></textarea>
                     </div>
                     <div style="display: flex; align-items: center; justify-content: center;">
-                        <button type="submit"><i class="fas fa-arrow-right"></i> Enviar</button>
+                        <button type="button" id="enviar-n"><i class="fas fa-arrow-right"></i> Enviar</button>
                     </div>
                 </form>
             </div>
@@ -294,9 +303,12 @@
                 <h5>Cumprindo a exigência da Lei nº 14.457, de 21 de setembro de 2022 (Processo nº 19966.100910/2021-44)
                 </h5>
                 <div class="social">
-                    <a href="https://www.facebook.com/statledbrasil/?locale=pt_BR" target="_blank"><i class="fa fa-facebook-f"></i></a>
-                    <a href="https://www.linkedin.com/company/statled/?originalSubdomain=br" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/statledbrasil/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/statledbrasil/?locale=pt_BR" target="_blank"><i
+                            class="fa fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/company/statled/?originalSubdomain=br" target="_blank"><i
+                            class="fa fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/statledbrasil/" target="_blank"><i
+                            class="fa fa-instagram"></i></a>
 
                 </div>
             </div>
@@ -311,6 +323,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         function toggleForm() {
             const formYes = document.getElementById('identificationFormYes');
@@ -327,7 +342,7 @@
         });
 
         document.querySelectorAll('a.nav-link').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+            anchor.addEventListener('click', function (e) {
                 e.preventDefault();
 
                 document.querySelector(this.getAttribute('href')).scrollIntoView({
@@ -335,9 +350,9 @@
                 });
             });
         });
-        $(document).ready(function() {
+        $(document).ready(function () {
             $("#quadradosCarousel").swipe({
-                swipe: function(event, direction) {
+                swipe: function (event, direction) {
                     if (direction == 'left') {
                         $(this).carousel('next');
                     } else if (direction == 'right') {
@@ -348,12 +363,83 @@
             });
         });
         // Adicionando evento de clique à imagem da logo
-        document.getElementById('logo').addEventListener('click', function() {
+        document.getElementById('logo').addEventListener('click', function () {
             // Rola de volta para o topo do site
             window.scrollTo({
                 top: 0,
                 behavior: 'smooth'
             });
+        });
+        // disparo do email - Sim
+        $("#enviar-s").click(function (event) {
+            event.preventDefault();
+            var formData = new FormData(document.getElementById("identificationFormYes"));
+
+            $.ajax({
+                type: "POST",
+                url: "mail-s.php",
+                data: formData,
+                processData: false,
+                contentType: false,
+                enctype: 'multipart/form-data',
+            })
+                .done(function (response) {
+                    console.log(response);
+                    if (response.sucesso) {
+                        Swal.fire({
+                            position: 'top',
+                            icon: 'success',
+                            title: 'Sua mensagem foi enviada com sucesso!',
+                            showConfirmButton: false,
+                            timer: 2500
+                        });
+                    } else {
+                        Swal.fire({
+                            position: 'top',
+                            icon: 'warning',
+                            title: 'Não foi possível enviar sua mensagem',
+                            text: response.erro,
+                            showConfirmButton: false,
+                            timer: 2500
+                        });
+                    }
+                });
+        });
+
+        // disparo do email - Não
+        $("#enviar-n").click(function (event) {
+            event.preventDefault();
+            var formData = new FormData(document.getElementById("identificationFormNo"));
+
+            $.ajax({
+                type: "POST",
+                url: "mail-n.php",
+                data: formData,
+                processData: false,
+                contentType: false,
+                enctype: 'multipart/form-data',
+            })
+                .done(function (response) {
+                    console.log(response);
+                    if (response.sucesso) {
+                        Swal.fire({
+                            position: 'top',
+                            icon: 'success',
+                            title: 'Sua mensagem foi enviada com sucesso!',
+                            showConfirmButton: false,
+                            timer: 2500
+                        });
+                    } else {
+                        Swal.fire({
+                            position: 'top',
+                            icon: 'warning',
+                            title: 'Não foi possível enviar sua mensagem',
+                            text: response.erro,
+                            showConfirmButton: false,
+                            timer: 2500
+                        });
+                    }
+                });
         });
     </script>
 </body>
