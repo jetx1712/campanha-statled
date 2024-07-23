@@ -13,6 +13,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="format-detection" content="telephone=no">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5D7WP67Q9T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-5D7WP67Q9T');
+    </script>
 </head>
 
 <body>
@@ -236,7 +245,7 @@
             </div>
             <a id="ancor-denuncie"></a>
             <div class="botao-download">
-                <a href="#"><button><i class="fas fa-arrow-right"></i> FAÇA O DOWNLOAD DA CARTILHA DA NOSSA
+                <a href="assets/docs/Cartilha_campanha_14x20_v4.pdf" target="_blank"><button><i class="fas fa-arrow-right"></i> FAÇA O DOWNLOAD DA CARTILHA DA NOSSA
                         CAMPANHA</button></a>
             </div>
         </div>
