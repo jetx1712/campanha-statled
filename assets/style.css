@@ -2,6 +2,10 @@ body{
     background: black;
     scroll-behavior: smooth;
 }
+a {
+    color:none !important; /* Cor do texto do link */
+    text-decoration: none !important; /* Remover sublinhado */
+}
 .bg-dark {
     background: black !important;
 }
@@ -41,7 +45,7 @@ body{
 
 #botao-contato-mobile label span {
     font-size: 35px;
-    color: #EA801C;
+    color: #EA801C !important;
 }
 #botao-contato-mobile {
     display: flex;
