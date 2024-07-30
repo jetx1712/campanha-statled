@@ -160,6 +160,10 @@ body{
     margin-top: 20px;
     margin-bottom: 50px;
 }
+.form-check-input:checked{
+    background-color: orange !important;
+    border-color: orange !important;
+}
 .botao-download button {
     border: none;
     padding: 20px;

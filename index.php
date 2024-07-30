@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="format-detection" content="telephone=no">
 </head>
 
 <body>
@@ -296,7 +297,6 @@
                     <a href="https://www.facebook.com/statledbrasil/?locale=pt_BR" target="_blank"><i class="fa fa-facebook-f"></i></a>
                     <a href="https://www.linkedin.com/company/statled/?originalSubdomain=br" target="_blank"><i class="fa fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/statledbrasil/" target="_blank"><i class="fa fa-instagram"></i></a>
-
                 </div>
             </div>
 
